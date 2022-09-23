@@ -7,23 +7,21 @@ deploying *performance optimized media analytics pipelines*.
 - It offers pipelines with APIs to :bulb: DISCOVER, START, STOP, CUSTOMIZE and MONITOR pipeline execution with support for [GStreamer](https://gstreamer.freedesktop.org/documentation/?gi-language=c)*
 or [FFmpeg](https://ffmpeg.org/)* 
 
-- Video Analytics Serving is based on [OpenVINO<sup>&#8482;</sup> Toolkit DL
-Streamer](https://github.com/opencv/gst-video-analytics) and [FFmpeg
-Video Analytics](https://github.com/VCDP/FFmpeg-patch).
+> **IMPORTANT:** Video Analytics Serving is provided as a _sample_. It
+> is not intended to be deployed into production environments without
+> modification. Developers deploying Video Analytics Serving should
+> review it against their production requirements.
 
 ## Features Include:
 | |                  |
 |---------------------------------------------|------------------|
 | **Customizable Media Analytics Containers** | Scripts and dockerfiles to build and run container images with the required dependencies for hardware optimized media analytics pipelines. |
 | **No-Code Pipeline Definitions and Templates** | JSON based definition files, a flexible way for developers to define and parameterize pipelines while abstracting the low level details from their users. |
-| **Deep Learning Model Integration** | A simple way to package and reference [OpenVINO<sup>&#8482;</sup>](https://software.intel.com/en-us/openvino-toolkit) based models in pipeline definitions. The precision of a model can be auto-selected at runtime based on the chosen inference device. |
+| **Deep Learning Model Integration** | A simple way to package and reference Deep NN based Cognitive AI Models in pipeline definitions. The precision of a model can be auto-selected at runtime based on the chosen inference device. |
 | **Video Analytics Serving Python API** | A python module to discover, start, stop, customize and monitor pipelines based on their no-code definitions. |
 | **Video Analytics Serving Microservice** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| A RESTful microservice providing endpoints and APIs matching the functionality of the python module. |
 
-> **IMPORTANT:** Video Analytics Serving is provided as a _sample_. It
-> is not intended to be deployed into production environments without
-> modification. Developers deploying Video Analytics Serving should
-> review it against their production requirements.
+
 
 # Getting Started
 
